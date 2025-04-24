@@ -7,7 +7,7 @@ Developed at the **University of Guelph**, this project was designed to demonstr
 
 ---
 
-## 📦 Features
+## Features
 
 - Stores contacts with employee ID, first name, last name, and email
 - Dynamically allocates memory for all string fields
@@ -17,14 +17,14 @@ Developed at the **University of Guelph**, this project was designed to demonstr
 
 ---
 
-## 🛠 Requirements
+## Requirements
 
 - GCC compiler (C99 standard)
 - Make utility
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 A2/
@@ -36,7 +36,7 @@ A2/
 
 ---
 
-## ⚙️ Build Instructions
+## Build Instructions
 
 To compile the project:
 
@@ -52,7 +52,7 @@ make clean
 
 ---
 
-## ▶️ Run Instructions
+## Run Instructions
 
 To run the program:
 
@@ -64,7 +64,7 @@ The database file `contactsListA2.db` will be created if it doesn’t exist.
 
 ---
 
-## 🧪 Functionality
+## Functionality
 
 - **Create Contact:** Prompt the user for employee details and append to the binary file.
 - **Read All Contacts:** Print all stored records in order.
@@ -73,6 +73,6 @@ The database file `contactsListA2.db` will be created if it doesn’t exist.
 
 ---
 
-## 📄 License
+## License
 
 This project is provided as-is for educational use. No license is currently specified.
