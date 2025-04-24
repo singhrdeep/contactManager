@@ -1,7 +1,7 @@
 
-# contactsApp – Binary File Contact Manager in C
+# contactManager – Binary File Contact Manager in C
 
-`contactsApp` is a command-line program written in C that lets users create, store, and retrieve contact records using a custom binary file format. It supports persistent contact storage using file offsets and dynamic memory for flexible string input.
+`contactManager` is a command-line program written in C that lets users create, store, and retrieve contact records using a custom binary file format. It supports persistent contact storage using file offsets and dynamic memory for flexible string input.
 
 Developed at the **University of Guelph**, this project was designed to demonstrate binary file I/O, dynamic allocation, and structured program design in C.
 
@@ -27,7 +27,7 @@ Developed at the **University of Guelph**, this project was designed to demonstr
 ## Folder Structure
 
 ```
-A2/
+contactManager/
 ├── bin/           # Compiled executable
 ├── include/       # Header files (given.h)
 ├── src/           # Source files
@@ -57,10 +57,10 @@ make clean
 To run the program:
 
 ```bash
-./bin/contactsApp contactsListA2.db
+./bin/contactManager contactsList.db
 ```
 
-The database file `contactsListA2.db` will be created if it doesn’t exist.
+The database file `contactsList.db` will be created if it doesn’t exist.
 
 ---
 
