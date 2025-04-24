@@ -3,7 +3,7 @@
 
 `contactManager` is a command-line program written in C that lets users create, store, and retrieve contact records using a custom binary file format. It supports persistent contact storage using file offsets and dynamic memory for flexible string input.
 
-This project was originally developed at the University of Guelph to help illustrate foundational programming and machine learning concepts in C. While it was built in an academic setting, it has been adapted for public sharing and broader learning.
+This project was originally developed at the University of Guelph in C. While it was built in an academic setting, it has been adapted for public sharing and broader learning.
 ---
 
 ## Features
