@@ -1,16 +1,16 @@
-bin/contactsApp: contactsA2.o createContactsA2.o readContactsA2.o searchContactsA2.o
-	gcc -Wall -std=c99 contactsA2.o createContactsA2.o readContactsA2.o searchContactsA2.o -o bin/contactsApp
+bin/contactManager: contacts.o createContacts.o readContacts.o searchContacts.o
+	gcc -Wall -std=c99 contacts.o createContacts.o readContacts.o searchContacts.o -o bin/contactManager
 
-contactsA2.o: src/contactsA2.c include/given.h
-	gcc -Wall -std=c99 -c src/contactsA2.c
+contacts.o: src/contactsA2.c include/given.h
+	gcc -Wall -std=c99 -c src/contacts.c
 
-createContactsA2.o: src/createContactsA2.c include/given.h
-	gcc -Wall -std=c99 -c src/createContactsA2.c
+createContacts.o: src/createContacts.c include/given.h
+	gcc -Wall -std=c99 -c src/createContacts.c
 
-readContactsA2.o: src/readContactsA2.c include/given.h
+readContacts.o: src/readContacts.c include/given.h
 	gcc -Wall -std=c99 -c src/readContactsA2.c
 
-searchContactsA2.o: src/searchContactsA2.c include/given.h
-	gcc -Wall -std=c99 -c src/searchContactsA2.c
+searchContacts.o: src/searchContacts.c include/given.h
+	gcc -Wall -std=c99 -c src/searchContacts.c
 clean:
 	rm *.o bin/myContacts *.db
